@@ -70,10 +70,30 @@
             <input id="Antall" type="text"></input> <p class="error" id="feilAntall">
             </p>
             <div class="Personlig info">
+
+                <!---Lagt til kategorier innenfor personlig info-->
+
                 <label>Fornavn</label>
                 <input id="Fornavn" type="text"></input>
-                
+                <p class="error" id="feil Fornavn" ></p>
 
+                <label>Etternavn</label>
+                <input id="Etternavn" type="text"></input>
+                <p class="error" id="feil Etternavn" ></p>
+
+                <label>Telefon nr</label>
+                <input id="Telefon nr" type="text"></input>
+                <p class="error" id="feil Telefon nr" ></p>
+
+                <label>E-Post</label>
+                <input id="E-Post" type="text"></input>
+                <p class="error" id="feil E-Post" ></p>
+            
             </div>
-
+            <button onclick="RegistrerBillett()">Kjøp Billet</button>
+            <h1> Alle Billeter </h1>
+            <div id="alle Billeter"> </div>
+            
+            <button id="slett" onclick="Slett Billetter():">Slett alle Billetter</button>
 </body>
+</html>
