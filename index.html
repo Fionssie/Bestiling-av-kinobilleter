@@ -17,5 +17,63 @@
             width: 200px;
         }
 
+        label{
+            display: inline-block;
+            width: 75px;
+            text-align: left;
+
+        }
+
+        #slett{
+            margin-top: 10px;
+        }
+
+        .error{
+            color: tomato;
+        }
         
+        body{
+            padding: 2px;
+            padding-bottom: 50px;
+            border: 2px solid rgb(red);
+            width: 700px;
+        }
+
+        p{
+            display: 10px;
+            flex-direction: row;
+        }
+        th, td{
+            padding: 10px;
+            margin-right: 10px;
+        }
+        .flex{
+            display: run-in;
+        }
+
     </style>
+</head>
+<body>
+    <h1>Bestilling av Kinobilleter</h1>
+
+    <p>Velg Film: 
+        <select id="Filmer" name="Velg">
+            <option> Spider Man </option>
+            <option> Iron Man </option>
+            <option> Ant-Man and the Wasp: Quantumania </option>
+            <option> Avatar: The Way of Water </option>
+            <option> Magic Mike's Last Dance </option>
+        </select>
+    </p>
+    <div class="flex">
+        <p>Antall 
+            <input id="Antall" type="text"></input> <p class="error" id="feilAntall">
+            </p>
+            <div class="Personlig info">
+                <label>Fornavn</label>
+                <input id="Fornavn" type="text"></input>
+                
+
+            </div>
+
+</body>
