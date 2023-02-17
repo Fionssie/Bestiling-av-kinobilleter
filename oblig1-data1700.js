@@ -18,29 +18,29 @@ let riktigiginput = new Boolean();
 
 if(antall == null || antall == "" ) {
 riktigiginput = (false);
-document.getElementById("feilAntall").innerHTML = "Du må skrive ANTALL";
+document.getElementById("feilAntall").innerHTML = "Må skrive noe inn i antall.";
 document.getElementById("Antall").value="";
 }
 if(fornavn == null || antall == "" ) {
 riktigiginput = (false);
-document.getElementById("feilFornavn").innerHTML = "Må skrive fornavnet";
+document.getElementById("feilFornavn").innerHTML = "Må skrive fornavnet.";
 document.getElementById("Fornavn").value="";
 }
 
 if(etternavn == null || antall == "" ) {
 riktigiginput = (false);
-document.getElementById("feilEtternavn").innerHTML = "Må skrive etternavnet";
+document.getElementById("feilEtternavn").innerHTML = "Må skrive etternavnet.";
 document.getElementById("Etternavn").value="";
 }
 if(telefonnr == null || antall == "" ) {
 riktigiginput = (false);
-document.getElementById("feilTelefonnr").innerHTML = "Må skrive noe inn i telefonnr ";
+document.getElementById("feilTelefonnr").innerHTML = "Må skrive noe inn i telefonnr.";
 document.getElementById("Fornavn").value="";
 }
 
 if(epost == null || antall == "" ) {
 riktigiginput = (false);
-document.getElementById("feilE-Post").innerHTML = "Må skrive noe inn i e-post";
+document.getElementById("feilE-Post").innerHTML = "Må skrive noe inn i e-post.";
 document.getElementById("E-Post").value="";
 }
 
