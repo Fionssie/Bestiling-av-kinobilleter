@@ -23,13 +23,13 @@ document.getElementById("Antall").value="";
 }
 if(fornavn == null || antall == "" ) {
 riktigiginput = (false);
-document.getElementById("feilFornavn").innerHTML = "Må skrive fornavnet.";
+document.getElementById("feilFornavn").innerHTML = "Må skrive noe inn i fornavnet.";
 document.getElementById("Fornavn").value="";
 }
 
 if(etternavn == null || antall == "" ) {
 riktigiginput = (false);
-document.getElementById("feilEtternavn").innerHTML = "Må skrive etternavnet.";
+document.getElementById("feilEtternavn").innerHTML = "Må skrive noe inn i etternavnet.";
 document.getElementById("Etternavn").value="";
 }
 if(telefonnr == null || antall == "" ) {
