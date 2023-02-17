@@ -18,4 +18,5 @@ Har lagt inn 5 tekstbokser der bruker må legge inn antall billetter og personli
 
 Lagd 2 knapper med ‘on click / klikk på’ funksjon hvor brukeren kan kjøpe eller slette alle bilettene.
 
+Når bruker legger inn feil informasjon eller prøver å gå videre uten å fylle ut de nødvendige feltene så har jeg ved hjelp av getElementbyID at hvis input er feil så får brukeren en feil melding ved siden av tekstboks med informasjon på hva som trengs til å fylle ut.
 
