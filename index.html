@@ -58,6 +58,7 @@
 
     <p>Velg Film: 
         <select id="Filmer" name="Velg">
+            <option> Velg film her</option>
             <option> Spider Man </option>
             <option> Iron Man </option>
             <option> Ant-Man and the Wasp: Quantumania </option>
@@ -81,19 +82,22 @@
                 <input id="Etternavn" type="text"></input>
                 <p class="error" id="feil Etternavn" ></p>
 
-                <label>Telefon nr</label>
-                <input id="Telefon nr" type="text"></input>
-                <p class="error" id="feil Telefon nr" ></p>
+                <label>Telefonnr</label>
+                <input id="Telefonnr" type="text"></input>
+                <p class="error" id="feil Telefonnr" ></p>
 
                 <label>E-Post</label>
                 <input id="E-Post" type="text"></input>
                 <p class="error" id="feil E-Post" ></p>
-            
+    
             </div>
+
+                <!---Lagt til trykke knapp-->
+
             <button onclick="RegistrerBillett()">Kjøp Billet</button>
             <h1> Alle Billeter </h1>
             <div id="alle Billeter"> </div>
             
-            <button id="slett" onclick="Slett Billetter():">Slett alle Billetter</button>
+            <button id="slett" onclick="SlettBilletter();">Slett alle Billetter</button>
 </body>
 </html>
